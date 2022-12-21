@@ -1,3 +1,13 @@
 set FLASK_APP=microblog.py
 set FLASK_ENV=development
 flask run  ( in the app directory)
+
+
+for web forms
+
+pip install flsk-wtf
+
+To handle the web forms in this application I'm going to use the Flask-WTF extension, 
+which is a thin wrapper around the WTForms package that nicely integrates it with Flask.
+This is the first Flask extension that I'm presenting to you, but it is not going to be
+the last. Extensions are a very important part of the Flask ecosystem
